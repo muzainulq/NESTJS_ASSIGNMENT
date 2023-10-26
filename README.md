@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository. This is a project which exposes API using NESTJS and swagger. We have also used logger in the application.
 
 ## Installation
 
@@ -67,6 +67,10 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 - Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
+
+## Swagger 
+
+We can run the swagger by going to URL: http://localhost:3000/swagger
 
 ## License
 
