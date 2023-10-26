@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository. This is a project which exposes API using NESTJS and swagger. We have also used logger in the application.
 
 ## Installation
 
