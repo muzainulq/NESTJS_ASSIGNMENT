@@ -5,17 +5,6 @@ import { AppService } from './app.service';
 export class AppController {
   constructor(private readonly appService: AppService) { }
 
-  // search api - GET
-  // https://www.weatherapi.com/weather/search.ashx?q=mumbai
-  // [{"id":1125257,"name":"Mumbai","region":"Maharashtra","country":"India","lat":18.98,"lon":72.83,"url":"mumbai-maharashtra-india"}]
-  // [{"id":1122691,"name":"Lucknow","region":"Uttar Pradesh","country":"India","lat":26.85,"lon":80.92,"url":"lucknow-uttar-pradesh-india"}]
-
-
-  // https://www.weatherapi.com/weather/q/mumbai-maharashtra-india-1125257
-  // https://www.weatherapi.com/weather/q/lucknow-uttar-pradesh-india-112269
-  // 
-
-
   @Get('weather-info')
   getWeather(@Query('cityName') cityName: string) {
     try {
